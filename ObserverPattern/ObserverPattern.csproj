@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\IObservable.cs" />
+    <Compile Include="Base\IObserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeatherStation\DisplayElements\CurrentConditionsDisplay.cs" />
+    <Compile Include="WeatherStation\DisplayElements\ForecastDisplay.cs" />
+    <Compile Include="WeatherStation\DisplayElements\IDisplayElement.cs" />
+    <Compile Include="WeatherStation\DisplayElements\StatisticsDisplay.cs" />
+    <Compile Include="WeatherStation\Measurements.cs" />
+    <Compile Include="WeatherStation\WeatherData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
