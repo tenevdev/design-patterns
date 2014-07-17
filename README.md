@@ -1,4 +1,4 @@
-design-patterns
-===============
+# Design Patterns
+> Overview of design patterns by example
 
-Overview of design patterns
+This collection of examples follows the [Head First Design Patterns Book](http://it-ebooks.info/book/252/)
