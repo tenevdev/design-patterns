@@ -8,7 +8,7 @@ namespace StrategyPattern.Ducks.Behaviours.Quacking
 {
     public class Squeaking : IDuckSound
     {
-        public void makeSound()
+        public void MakeSound()
         {
             // Squeak
             Console.WriteLine("Squeak");

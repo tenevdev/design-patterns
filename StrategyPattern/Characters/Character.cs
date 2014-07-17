@@ -13,9 +13,9 @@ namespace StrategyPattern.Characters
 
         public Character() { }
 
-        public void fight()
+        public void Fight()
         {
-            this.Weapon.use();
+            this.Weapon.Use();
         }
     }
 }

@@ -15,16 +15,16 @@ namespace StrategyPattern
         static void Main(string[] args)
         {
             Character king = new King();
-            king.fight();
+            king.Fight();
 
             Character troll = new Troll();
-            troll.fight();
+            troll.Fight();
 
             Duck mallard = new MallardDuck();
-            mallard.performFly();
+            mallard.PerformFly();
 
             Duck rubberDuck = new ModelDuck();
-            rubberDuck.performFly();
+            rubberDuck.PerformFly();
 
             Console.ReadLine();
         }

@@ -8,7 +8,7 @@ namespace StrategyPattern.Ducks.Behaviours.Quacking
 {
     public class Mute : IDuckSound
     {
-        public void makeSound()
+        public void MakeSound()
         {
             // Cannot make sound
             Console.WriteLine("(Silence)");

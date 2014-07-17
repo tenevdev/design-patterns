@@ -15,14 +15,14 @@ namespace StrategyPattern.Ducks
 
         public Duck(){ }
 
-        public void performFly()
+        public void PerformFly()
         {
-            this.FlyingBehaviour.fly();
+            this.FlyingBehaviour.Fly();
         }
 
-        public void performSound()
+        public void PerformSound()
         {
-            this.QuackingBehaviour.makeSound();
+            this.QuackingBehaviour.MakeSound();
         }
     }
 }

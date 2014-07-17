@@ -8,7 +8,7 @@ namespace StrategyPattern.Characters.Behaviours.Weapon
 {
     public class Bow : IWeapon
     {
-        public void use()
+        public void Use()
         {
             // Shoot an arrow
         }

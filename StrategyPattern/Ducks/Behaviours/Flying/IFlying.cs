@@ -8,6 +8,6 @@ namespace StrategyPattern.Ducks.Behaviours.Flying
 {
     public interface IFlying
     {
-        void fly();
+        void Fly();
     }
 }

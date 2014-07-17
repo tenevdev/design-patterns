@@ -8,6 +8,6 @@ namespace StrategyPattern.Ducks.Behaviours.Quacking
 {
     public interface IDuckSound
     {
-        void makeSound();
+        void MakeSound();
     }
 }

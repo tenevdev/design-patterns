@@ -8,6 +8,6 @@ namespace StrategyPattern.Characters.Behaviours.Weapon
 {
     public interface IWeapon
     {
-        void use();
+        void Use();
     }
 }

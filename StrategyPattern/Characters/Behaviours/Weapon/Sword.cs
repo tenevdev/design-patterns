@@ -8,7 +8,7 @@ namespace StrategyPattern.Characters.Behaviours.Weapon
 {
     public class Sword : IWeapon
     {
-        public void use()
+        public void Use()
         {
             // Swing a sword
         }

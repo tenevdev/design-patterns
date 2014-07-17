@@ -8,7 +8,7 @@ namespace StrategyPattern.Ducks.Behaviours.Flying
 {
     public class NotFlying : IFlying
     {
-        public void fly()
+        public void Fly()
         {
             // Cannot fly
             Console.WriteLine("Cannot fly");

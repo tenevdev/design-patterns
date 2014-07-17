@@ -8,7 +8,7 @@ namespace StrategyPattern.Ducks.Behaviours.Flying
 {
     public class FlyingWithWings : IFlying
     {
-        public void fly()
+        public void Fly()
         {
             // Fly normally
             Console.WriteLine("Flying");

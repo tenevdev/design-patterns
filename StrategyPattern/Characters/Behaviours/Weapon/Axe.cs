@@ -8,7 +8,7 @@ namespace StrategyPattern.Characters.Behaviours.Weapon
 {
     public class Axe : IWeapon
     {
-        public void use()
+        public void Use()
         {
             // Chop, chop...
             Console.WriteLine("A troll chops with an axe.");
