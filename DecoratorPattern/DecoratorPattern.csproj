@@ -41,11 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoffeeShop\Beverage.cs" />
+    <Compile Include="CoffeeShop\CoffeeTypes\DarkRoast.cs" />
+    <Compile Include="CoffeeShop\CoffeeTypes\Decaf.cs" />
+    <Compile Include="CoffeeShop\CoffeeTypes\Espresso.cs" />
+    <Compile Include="CoffeeShop\CoffeeTypes\HouseBlend.cs" />
+    <Compile Include="CoffeeShop\Condiments\CondimentDecorator.cs" />
+    <Compile Include="CoffeeShop\Condiments\Milk.cs" />
+    <Compile Include="CoffeeShop\Condiments\Mocha.cs" />
+    <Compile Include="CoffeeShop\Condiments\Soy.cs" />
+    <Compile Include="CoffeeShop\Condiments\Whip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Decorator.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
