@@ -13,3 +13,9 @@ This collection of examples follows the [Head First Design Patterns Book](http:/
 
 ### Decorator Pattern
 > Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+### Singleton Pattern
+> Ensure a class has only one intance and provide a global point of access to it.
+
+### Command Pattern
+> Encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
