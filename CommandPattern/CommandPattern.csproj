@@ -41,8 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\ICommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoteControl\Appliances\CeilingFan.cs" />
+    <Compile Include="RemoteControl\Appliances\Light.cs" />
+    <Compile Include="RemoteControl\Appliances\Stereo.cs" />
+    <Compile Include="RemoteControl\Commands\CeilingFan\CeilingFanHighCommand.cs" />
+    <Compile Include="RemoteControl\Commands\Light\LightOffCommand.cs" />
+    <Compile Include="RemoteControl\Commands\Light\LightOnCommand.cs" />
+    <Compile Include="RemoteControl\Commands\MacroCommand.cs" />
+    <Compile Include="RemoteControl\Commands\NoCommand.cs" />
+    <Compile Include="RemoteControl\Commands\Stereo\StereoOffCommand.cs" />
+    <Compile Include="RemoteControl\Commands\Stereo\StereoWithCDCommand.cs" />
+    <Compile Include="RemoteControl\Commands\Stereo\StereoWithDVDCommand.cs" />
+    <Compile Include="RemoteControl\RemoteControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
