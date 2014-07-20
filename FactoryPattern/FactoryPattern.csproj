@@ -41,11 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactoryMethod\ChicagoStylePizzaStore.cs" />
+    <Compile Include="FactoryMethod\PizzaStore.cs" />
+    <Compile Include="PizzaTypes\CheesePizza.cs" />
+    <Compile Include="PizzaTypes\ClamPizza.cs" />
+    <Compile Include="PizzaTypes\PepperoniPizza.cs" />
+    <Compile Include="PizzaTypes\VeggiePizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PizzaTypes\Pizza.cs" />
+    <Compile Include="SimpleFactory\PizzaStore.cs" />
+    <Compile Include="PizzaTypes\PizzaType.cs" />
+    <Compile Include="SimpleFactory\SimplePizzaFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AbstractFactory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

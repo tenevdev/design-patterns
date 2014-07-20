@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FactoryPattern.FactoryMethod.PizzaStore">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\PizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.FactoryMethod.NYStylePizzaStore" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\NYStylePizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.FactoryMethod.ChicagoStylePizzaStore" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\ChicagoStylePizzaStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.Pizza">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>PizzaTypes\Pizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.ChicagoStyleCheesePizza" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Cheese\ChicagoStyleCheesePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.NYStyleCheesePizza" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Cheese\NYStyleCheesePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.ChicagoStyleClamPizza" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Clam\ChicagoStyleClamPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.NYStyleClamPizza" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Clam\NYStyleClamPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.ChicagoStylePepperoniPizza" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Pepperoni\ChicagoStylePepperoniPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.NYStylePepperoniPizza" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Pepperoni\NYStylePepperoniPizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.ChicagoStyleVeggiePizza" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Veggie\ChicagoStyleVeggiePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FactoryPattern.PizzaTypes.NYStyleVeggiePizza" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PizzaTypes\Veggie\NYStyleVeggiePizza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
